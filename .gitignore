@@ -1,0 +1,7 @@
+.cache
+.obj
+**.json
+make_output
+ex00/scalar
+ex01/serial
+ex02/realtype

@@ -1,0 +1,26 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Base.hpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kbarru <kbarru@student.42lyon.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/02/18 16:53:08 by kbarru            #+#    #+#             */
+/*   Updated: 2026/02/18 17:04:52 by kbarru           ###   ########lyon.fr   */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef BASE_HPP
+# define BASE_HPP
+
+class Base {
+public:
+	Base();
+	virtual ~Base() {}
+	static Base *generate(void);
+	static void identify(Base* p);
+	static void identify(Base& p);
+	
+};
+
+#endif
