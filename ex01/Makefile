@@ -1,6 +1,6 @@
 NAME = serial
 CC = c++
-FLAGS = -Wall -Wextra -Werror -std=c++98 -MMD -MP -g3
+FLAGS = -Wall -Wextra -Werror -std=c++98 -MMD -MP
 
 SRC_DIR = src/
 INC_DIR = inc/

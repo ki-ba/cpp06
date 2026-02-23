@@ -24,3 +24,4 @@ Data &Data::operator=(Data &other)
 }
 
 int Data::getVal() { return (this->_intval);}
+int	Data::setVal(int val) { return (this->_intval = val); }

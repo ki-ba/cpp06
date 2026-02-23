@@ -25,6 +25,7 @@ int main(void)
 	std::cout << "&d = " << &d << std::endl;
 	std::cout << "serialize : " << ptr << std::endl;
 	std::cout << "raw: " << raw << std::endl;
-	std::cout << "value : "<< raw->getVal() << std::endl ;
+	std::cout << "initial value : "<< d.getVal() << std::endl ;
+	std::cout << "serialized then deserialized value : "<< raw->getVal() << std::endl ;
 	return (0);
 }

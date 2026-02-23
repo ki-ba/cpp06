@@ -22,6 +22,7 @@ public:
 	~Data();
 	Data &operator=(Data &other);
 	int getVal();
+	int setVal(int val);
 private:
 	int _intval;
 };
