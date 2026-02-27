@@ -26,15 +26,6 @@ typedef enum e_type
 	DOUBLE
 }	t_type;
 
-typedef enum special_values
-{
-	DNAN = 1,
-	PINF,
-	NINF,
-	NANF,
-	PINFF,
-	NINFF
-}	t_special_values;
 
 ScalarConverter::ScalarConverter()
 {}
